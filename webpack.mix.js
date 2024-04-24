@@ -12,3 +12,9 @@ mix
 .vue({
   version: 3,
 });
+
+mix.webpackConfig({
+  stats: {
+    children: true,
+  },
+});
